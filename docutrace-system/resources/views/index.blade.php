@@ -1003,6 +1003,6 @@
         </div>
     </div>
 </footer>
-<script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
 </body>
 </html>
