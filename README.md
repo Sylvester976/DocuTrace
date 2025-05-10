@@ -29,3 +29,15 @@ DocuTrace is designed to serve multiple user roles, each with distinct needs and
 - **Transparency:** Users can always see the current status of a document, enhancing accountability and reducing delays caused by unclear responsibilities.
 - **Security:** The system ensures that only authorized users can access or modify documents, maintaining confidentiality and integrity throughout the process.
 - **Real-time Updates:** With notifications and real-time tracking, users are always in the loop, leading to quicker decision-making.
+
+## Getting Started
+
+1. Clone the repository.
+2. Set up your local environment (details to be provided in future documentation).
+3. Install dependencies with Composer and npm.
+4. Configure your environment variables (e.g., database connection, email settings).
+5. Run migrations and seed the database.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
