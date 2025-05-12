@@ -7,7 +7,7 @@
         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Sign Up| TailAdmin - Tailwind CSS Admin Dashboard Template</title>
+    <title>Sign Up</title>
     <link rel="icon" href="{{ asset('images/docufav.ico')}}"><link href="{{ asset('docu-assets/style.css')}}" rel="stylesheet"></head>
 <body
     x-data="{ page: 'comingSoon', 'loaded': true, 'darkMode': false, 'stickyMenu': false, 'sidebarToggle': false, 'scrollTop': false }"
