@@ -15,7 +15,7 @@ class RegisterController extends Controller
         $fname = $request->input('fname');
         $lname = $request->input('lname');
         $email = $request->input('email');
-        $password = Hash::make($request->input('password'));
+
 
         $validator = Validator::make($request->all(), [
             'fname' => 'required|string|max:255',
@@ -23,6 +23,8 @@ class RegisterController extends Controller
             'email' => 'required|email|unique:users,email',
             'password' => 'required|string|min:6',
         ]);
+
+        $password = Hash::make($request->input('password'));
 
         if ($validator->fails()) {
             return back()
